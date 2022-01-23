@@ -64,10 +64,7 @@ input[type=text]:focus {
     opacity: 0.85;
 }
 .topnav--hide {
-    display: none;
-}
-.topnav--show {
-    display: ;
+    opacity: 0;
 }
 .topnav a {
     float: left;
