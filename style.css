@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.button:hover {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
 body {
 z-index: 100;
 } 
@@ -72,7 +82,24 @@ top: 30px;
 }
 
 
-#Home {background-image: url(http://prohotelia.com/wp-content/uploads/2019/12/restaurant-menu-triks.jpg;);
-#Menu {background-color:green;}
-#Reservarion {background-color:blue;}
-#about_ASOR {background-color:orange;}
+#Home background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612419472_110-p-vkusnii-kofeinii-fon-221.jpg);
+#Menu background-image: url(https://avatars.mds.yandex.net/get-altay/200322/2a0000015b17f5c2c3704010c2ce6aae944d/XXL);
+#Reservarion background-image: url(https://cdn.pixabay.com/photo/2017/08/06/18/08/wooden-2594768_1280.jpg);
+#Blog {background-image: url(https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/06/blog-4-cereals-900x479.jpg);
+}
+
+
+
+    .btn {
+        border: none;
+        outline: none;
+        padding: 10px 16px;
+        background-color: #f1f1f1;
+        cursor: pointer;
+      }
+      
+      /* Style the active class (and buttons on mouse-over) */
+      .active, .btn:hover {
+        background-color: #666;
+        color: white;
+      }

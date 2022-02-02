@@ -14,11 +14,10 @@
 
         <div class="header_info">
             <i>
-           <button>Home</button>
-            <button>Menu</button>
-          <button>Reservation</button>
-       <button>about ASOR</button>
-      <button>Shop</button>
+              <button class="button">Home </button>
+              <button class="button">Menu</button>
+              <button class="button">Reservation</button>
+              <button class="button">Blog</button>
             </i>
         </div>
     </div>
@@ -40,22 +39,32 @@
       
       <div id="Reservation" class="tabcontent">
         <h3>Reservation</h3>
-        <p>TText.</p>
-      </div>
-      
-      <div id="about ASOR" class="tabcontent">
-        <h3>about ASOR</h3>
         <p>Text.</p>
       </div>
       
-      <button class="tablink" onclick="openCity('Home', this, 'red')" id="defaultOpen">Home</button>
-      <button class="tablink" onclick="openCity('Menu', this, 'green')">Menu</button>
-      <button class="tablink" onclick="openCity('Reservation', this, 'blue')">Reservation</button>
-      <button class="tablink" onclick="openCity('about ASOR', this, 'orange')">about_ASOR</button>
+      <div id="Blog" class="tabcontent">
+        <h3>Blog</h3>
+        <p>Text.</p>
+      </div>
+      
+      <button class="tablink" onclick="openCity('Home', this, 'url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612419472_110-p-vkusnii-kofeinii-fon-221.jpg'))" id="defaultOpen">Home</button>
+      <button class="tablink" onclick="openCity('Menu', this, 'url(https://avatars.mds.yandex.net/get-altay/200322/2a0000015b17f5c2c3704010c2ce6aae944d/XXL'))">Menu</button>
+      <button class="tablink" onclick="openCity('Reservation', this, 'url(https://cdn.pixabay.com/photo/2017/08/06/18/08/wooden-2594768_1280.jpg'))">Reservation</button>
+      <button class="tablink" onclick="openCity('Blog', this, 'url(https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/06/blog-4-cereals-900x479.jpg'))">Blog</button>
        
 
         
 <script href="script.js"></script>
   
+
+<div id="myDIV">
+  <button class="btn">1</button>
+  <button class="btn active">2</button>
+  <button class="btn">3</button>
+  <button class="btn">4</button>
+  <button class="btn">5</button>
+</div>
+
+
 </body>
 </html>
