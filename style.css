@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+.main {
+text-align: center;
+color: gold;
+font-size: 33px;
+
+}
+
+
 
 .button:hover {
     background-color: grey;
@@ -41,19 +49,7 @@ z-index: 100;
     flex-direction: row;
     justify-content: space-between;
 }
-.section2 {
-    width: 100%;
-    height: 400px;
-    background-image: 
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
 
-button {
-opacity: 50%;
-left: 1000px;
-top: 30px;
-}
 
 
 .tablink {
@@ -74,32 +70,25 @@ top: 30px;
 }
 
 
-.tabcontent {
-    color: white;
-    display: none;
-    padding: 50px;
-    text-align: center;
+
+
+
+ #Home{
+    background-image: url("images/Home.jpg");
+width: 1000vw;
 }
+#Menu{ 
+ background-image: url("images/menu.jpg")
+
+};
+#Reservarion{
+     background-image: url("images/reservation.jpg")
+
+    };
+#Blog{
+     background-image: url("images/blog.jpg")
+
+    };
 
 
-#Home background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612419472_110-p-vkusnii-kofeinii-fon-221.jpg);
-#Menu background-image: url(https://avatars.mds.yandex.net/get-altay/200322/2a0000015b17f5c2c3704010c2ce6aae944d/XXL);
-#Reservarion background-image: url(https://cdn.pixabay.com/photo/2017/08/06/18/08/wooden-2594768_1280.jpg);
-#Blog {background-image: url(https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/06/blog-4-cereals-900x479.jpg);
-}
-
-
-
-    .btn {
-        border: none;
-        outline: none;
-        padding: 10px 16px;
-        background-color: #f1f1f1;
-        cursor: pointer;
-      }
-      
-      /* Style the active class (and buttons on mouse-over) */
-      .active, .btn:hover {
-        background-color: #666;
-        color: white;
-      }
+ 
