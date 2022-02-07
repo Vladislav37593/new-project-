@@ -1,5 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
-/*Global styles*/
+@font-face {
+    font-family: Satisfy-regular;
+    src: url(/fonts/fonts.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+
 *,
 *::before,
 *::after{
@@ -13,10 +19,10 @@ h1 {
 }
 
 :root{
-    --main-font: 'Source Sans Pro', sans-serif;
-    --secondary-font: 'Etna';
-    --body-font: 'Cabin', sans-serif;
-    --main-font-color-dark: #252525;
+    --main-font: 'Marck Script', sans-serif;
+    --secondary-font: 'Marck Script';
+    --body-font: 'Marck Script', sans-serif;
+    --main-font-color-dark: hsl(0, 0%, 15%);
     --secondary-font-color: #c59d5f;
     --body-font-color: #515151;
 }
@@ -55,16 +61,17 @@ p {
     max-width: 122.5rem;
     margin: 0 auto;
     padding: 0 2.4rem;
+
 }
 
-/* Header styles */
+
 header {
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
-    background-image: linear-gradient(to bottom, rgba(0,0,0, .5), transparent);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
 }
 
 .nav {
@@ -155,12 +162,12 @@ header {
     color: var(--secondary-font-color);
 }
 
-/* Hero */
+
 
 .hero {
     width: 100%;
     height: 100vh;
-    background: url("images/hero.jpg") center no-repeat;
+    background: url(https://oir.mobi/uploads/posts/2021-03/1616966846_25-p-fon-dlya-menyu-28.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -177,11 +184,13 @@ header {
     opacity: 0;
     animation: fadeUp .5s forwards;
     animation-delay: .5s;
+    font-style: url('fonts/fonts.ttf');
 }
 
 .first-letter {
     text-transform: uppercase;
     font-size: 10.3rem;
+    font-style: url('fonts/fonts.ttf')
 }
 
 .headline {
@@ -281,7 +290,7 @@ header {
     background-color: var(--secondary-font-color);
 }
 
-/* Discover our Story */
+
 
 .global-headline {
     text-align: center;
@@ -349,7 +358,7 @@ header {
     background-color: var(--main-font-color-dark);
 }
 
-/* Tasteful recipes */
+
 
 .tasteful-recipes {
     background: url("images/tasteful-recipes.jpg") center no-repeat;
@@ -362,7 +371,7 @@ header {
     align-items: center;
 }
 
-/* DISCOVER OUR MENU */
+
 
 .image-group {
     display: grid;
@@ -375,14 +384,14 @@ header {
     margin-bottom: 0;
 }
 
-/* PERFECT BLEND */
+
 
 .perfect-blend {
     background: url("images/perfect-blend.jpg") center no-repeat;
     background-size: cover;
 }
 
-/* FOOTER */
+
 
 footer {
     padding: 7.9rem 0;
@@ -483,7 +492,7 @@ footer {
 }
 
 
-/* MEDIA QUERIES */
+
 @media screen and (min-width: 900px) {
     section {
         padding: 7.9rem;
@@ -597,8 +606,49 @@ footer {
     }
 }
 
+.folowing {
+    border: 2px solid #ccc;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+}
 
-/* ANIMATIONS */
+
+.folowing::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.folowing img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+
+.folowing span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+
+@media (max-width: 500px) {
+  .container {
+    text-align: center;
+  }
+
+  .container img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+
+
+
 @keyframes fadeUp {
     0% {
         transform: translateY(4rem);
